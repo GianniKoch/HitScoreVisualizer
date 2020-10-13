@@ -7,7 +7,7 @@
 		<Nullable>enable</Nullable>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		<OutDir>$(ProjectDir)bin\$(Configuration)</OutDir>
-		<ModVersion>2.4.3</ModVersion>
+		<ModVersion>3.0.0</ModVersion>
 		<AssemblyVersion>$(ModVersion)</AssemblyVersion>
 		<FileVersion>$(ModVersion)</FileVersion>
 		<InformationalVersion>$(ModVersion)</InformationalVersion>
@@ -40,6 +40,10 @@
 		</Reference>
 		<Reference Include="Main">
 			<HintPath>$(GameDirPath)Beat Saber_Data\Managed\Main.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="GamePlayCore">
+			<HintPath>$(GameDirPath)Beat Saber_Data\Managed\GamePlayCore.dll</HintPath>
 			<Private>False</Private>
 		</Reference>
 		<Reference Include="HMLib">
